@@ -52,6 +52,6 @@ class InstaBot:
                     sleep(1)
             scroll += 1
 
-
+#Add the username, password and usernameforsearch
 Bot = InstaBot('username', 'password', 'usernameforsearch')
 Bot.bulk_follow()
